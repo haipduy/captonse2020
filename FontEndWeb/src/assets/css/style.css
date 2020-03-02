@@ -114,6 +114,7 @@ body:after {
 
 .site-footer {
   padding: 4em 0;
+  padding: 10px;
   background: #333333; }
   @media (min-width: 768px) {
     .site-footer {

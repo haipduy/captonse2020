@@ -17,6 +17,8 @@ import { SignUpComponent } from './body/sign-up/sign-up.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatButtonModule} from '@angular/material/button';
+import { MainComponent } from './main/main.component';
+import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +32,9 @@ import {MatButtonModule} from '@angular/material/button';
     OurServiceComponent,
     ContactComponent,
     SignInComponent,
-    SignUpComponent
+    SignUpComponent,
+    MainComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
